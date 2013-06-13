@@ -146,6 +146,7 @@ return array(
 	'aliases' => array(
 
 		'App'             => 'Illuminate\Support\Facades\App',
+		'Ardent'          => 'LaravelBook\Ardent\Ardent',
 		'Artisan'         => 'Illuminate\Support\Facades\Artisan',
 		'Auth'            => 'Illuminate\Support\Facades\Auth',
 		'Blade'           => 'Illuminate\Support\Facades\Blade',
