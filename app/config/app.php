@@ -113,6 +113,9 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+		'LaravelBook\Ardent\Providers\ArdentServiceProvider',
+		'Toddish\Verify\VerifyServiceProvider',
+		'Way\Generators\GeneratorsServiceProvider',
 
 	),
 
