@@ -4,7 +4,6 @@
 	"keywords": ["framework", "laravel"],
 	"require": {
 		"laravel/framework": "4.0.*",
-		"components/backbone": "1.0.0",
 		"toddish/verify": "~1",
 		"way/generators": "dev-master",
 		"laravelbook/ardent": "dev-master"
