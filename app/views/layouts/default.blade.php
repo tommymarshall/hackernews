@@ -7,8 +7,15 @@
 
 </head>
 <body>
+	<div class="container">
+		@if (Session::has('message'))
+			<div class="flash alert">
+				<p>{{ Session::get('message') }}</p>
+			</div>
+		@endif
 
-	@yield('content')
+		@yield('content')
+	</div>
 
 	{{ HTML::script('//underscorejs.org/underscore.js') }}
 	{{ HTML::script('//code.jquery.com/jquery.js') }}

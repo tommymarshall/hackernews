@@ -2,7 +2,7 @@
 (function(window){
 	"use strict"
 
-	window.Story = Backbone.Model.extend({
+	window.Post = Backbone.Model.extend({
 			defaults: {
 				title: "",
 				url: "",
@@ -10,7 +10,7 @@
 				updated_at: "",
 				karma: ""
 			},
-			urlRoot: "stories/"
+			urlRoot: "posts/"
 
 	});
 

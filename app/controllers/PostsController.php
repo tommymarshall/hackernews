@@ -23,7 +23,7 @@ class PostsController extends BaseController {
     {
         $posts = $this->post->all();
 
-        return View::make('posts.index', compact('posts'));
+        return $posts;
     }
 
     /**
